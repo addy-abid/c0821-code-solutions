@@ -13,9 +13,10 @@ div.email {
   padding-right: 300px;
   font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
   font-size: 12px;
+  padding-bottom: 5px;
 }
 
-div.email-input {
+div.input {
   display: flex;
   align-self: center;
   justify-content: center;
@@ -28,12 +29,7 @@ div.name {
   padding-right: 385px;
   font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
   font-size: 12px;
-}
-
-div.name-input {
-  display: flex;
-  align-self: center;
-  justify-content: center;
+  padding-top: 15px;
 }
 
 div.where {
@@ -43,12 +39,7 @@ div.where {
   padding-right: 245px;
   font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
   font-size: 12px;
-}
-
-div.where-input {
-  display: flex;
-  align-self: center;
-  justify-content: center;
+  padding-top: 15px;
 }
 
 div.many {
@@ -58,12 +49,7 @@ div.many {
   padding-left: 5px;
   font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
   font-size: 12px;
-}
-
-div.many-input {
-  display: flex;
-  align-self: center;
-  justify-content: center;
+  padding-top: 15px;
 }
 
 input {
@@ -71,6 +57,7 @@ input {
   padding-right: 150px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-width: 1px;
 }
 
 select {
@@ -95,4 +82,17 @@ select {
 #many {
   border-radius: 5px;
   border-color: gray;
+}
+
+option {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 1000px;
+}
+
+input::placeholder {
+  text-align: left;
+  padding-right: ;
 }
