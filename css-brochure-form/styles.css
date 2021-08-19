@@ -8,7 +8,7 @@ h2 {
 
 div.input {
   border-radius: 15px;
-  height: 75px;
+  height: 55px;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -72,5 +72,15 @@ div.many {
 }
 
 button.submit {
-  justify-content: right;
+  margin-left: 590px;
+  color: white;
+  background-color: rgb(238, 109, 103);
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-family: 'Brandon Grotesque', 'Times New Roman', Times, serif;
+  border-color: rgb(238, 109, 103);
+  border-width: 1px;
 }
