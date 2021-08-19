@@ -23,11 +23,25 @@ label {
 input {
   height: 35px;
   border-radius: 5px;
+  border-width: 1px;
+  border-color: lightgray;
 }
 
 select {
-  padding-left: 250px;
   border-radius: 2px;
   height: 35px;
   background-color: lightgray;
+  padding-right: 250px;
+}
+
+div.email {
+  padding-right: 200px;
+}
+
+div.name {
+  padding-right: 275px;
+}
+
+div.where {
+  padding-right: 120px;
 }
