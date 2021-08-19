@@ -18,6 +18,9 @@ label {
   display: flex;
   align-self: center;
   justify-content: center;
+  font-family: 'Brandon Grotesque', sans-serif, serif;
+  font-size: 0.75em;
+  padding-right: 100px;
 }
 
 input {
@@ -25,23 +28,45 @@ input {
   border-radius: 5px;
   border-width: 1px;
   border-color: lightgray;
+  width: 450px;
 }
 
 select {
   border-radius: 2px;
   height: 35px;
-  background-color: lightgray;
+  background-color: rgb(243, 243, 243);
   padding-right: 250px;
+  width: 450px;
 }
 
 div.email {
-  padding-right: 200px;
+  padding-right: 220px;
+  padding-bottom: 2px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 div.name {
-  padding-right: 275px;
+  padding-right: 290px;
+  padding-bottom: 2px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+::placeholder {
+  padding-left: 10px;
 }
 
 div.where {
-  padding-right: 120px;
+  padding-right: 175px;
+  padding-bottom: 2px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+div.many {
+  padding-left: 50px;
+  padding-bottom: 2px;
+  font-weight: bold;
+  font-size: 1rem;
 }
