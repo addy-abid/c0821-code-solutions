@@ -1,0 +1,74 @@
+h2 {
+  color: rgb(238, 109, 103);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Brandon Grotesque', 'Times New Roman', Times, serif;
+}
+
+div.email {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-right: 300px;
+  font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+div.email-input {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+div.name {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-right: 385px;
+  font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+div.name-input {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+div.where {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-right: 245px;
+  font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+div.where-input {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+div.many {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-left: 50px;
+  font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+div.many-input {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+input {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
