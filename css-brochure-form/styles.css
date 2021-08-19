@@ -70,3 +70,7 @@ div.many {
   font-weight: bold;
   font-size: 1rem;
 }
+
+button.submit {
+  justify-content: right;
+}
