@@ -1,0 +1,49 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+div.column-right-d {
+  width: 33%;
+}
+
+img {
+  width: 100%;
+}
+
+.column {
+  width: calc(100% / 3);
+}
+
+div.column-first {
+  width: 33%;
+}
+
+div.column-middle {
+  width: 66%;
+}
+
+div.column-dtext {
+  width: 66%;
+}
+
+div.column-k {
+  width: 25%;
+}
+
+div.column-f {
+  width: 25%;
+}
+
+div.column-p {
+  width: 25%;
+}
+
+div.column-n {
+  width: 25%;
+}
