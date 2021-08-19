@@ -72,15 +72,8 @@ div.many {
 }
 
 button.submit {
-  margin-left: 590px;
-  color: white;
-  background-color: rgb(238, 109, 103);
-  border-radius: 15px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 7px;
-  padding-top: 7px;
-  font-family: 'Brandon Grotesque', 'Times New Roman', Times, serif;
-  border-color: rgb(238, 109, 103);
-  border-width: 1px;
+  margin-right: auto;
+  padding-bottom: 2px;
+  font-weight: bold;
+  font-size: 1rem;
 }
