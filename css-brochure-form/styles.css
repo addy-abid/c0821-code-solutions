@@ -1,0 +1,68 @@
+h2 {
+  color: rgb(238, 109, 103);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Brandon Grotesque', 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.input {
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.label {
+  padding-left: 15px;
+  font-size: 0.8em;
+  font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+  background-color: rgb(243, 243, 243);
+}
+
+input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+}
+
+::placeholder {
+  padding-left: 5px;
+  font-size: 1.2em;
+  color: rgb(180, 180, 180);
+}
+
+.button-hold {
+  text-align: right;
+}
+
+.button-style {
+  border-radius: 15px;
+  margin-top: 10px;
+  background-color: rgb(238, 109, 103);
+  color: white;
+  padding: 8px 15px;
+  border: 1px;
+}
+
+.input-style {
+  width: 100%;
+}
