@@ -1,27 +1,27 @@
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding-top: 50px;
+  color: white;
+  padding-left: 50px;
+}
 
 .container {
-  width: 800px;
-  margin: auto;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(25, 150, 218);
+}
+
+.column-third {
+  width: 33%;
 }
 
 .row {
   display: flex;
 }
 
-h2 {
-  color: white;
-  margin: 15px;
-  font-family: 'Lato', sans-serif, serif;
-}
-
-body {
-  background-color: rgb(27, 150, 217);
-}
-
-.column-one-third {
-  width: 33%;
-}
-
 img {
-  width: 20%;
+  size: 50%;
 }
