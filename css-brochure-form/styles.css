@@ -21,6 +21,8 @@ h2 {
   font-size: 0.8em;
   font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
   font-weight: bolder;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 select {
@@ -50,5 +52,17 @@ input {
 
 .button-hold {
   text-align: right;
+}
+
+.button-style {
+  border-radius: 15px;
+  margin-top: 10px;
   background-color: rgb(238, 109, 103);
+  color: white;
+  padding: 8px 15px;
+  border: 1px;
+}
+
+.input-style {
+  width: 100%;
 }
