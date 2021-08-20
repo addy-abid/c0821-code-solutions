@@ -6,74 +6,49 @@ h2 {
   font-family: 'Brandon Grotesque', 'Times New Roman', Times, serif;
 }
 
-div.input {
-  border-radius: 15px;
-  height: 55px;
-  display: flex;
-  align-self: center;
-  justify-content: center;
+.container {
+  width: 50%;
+  margin: auto;
 }
 
-label {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  font-family: 'Brandon Grotesque', sans-serif, serif;
-  font-size: 0.75em;
-  padding-right: 100px;
+.input {
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
 
-input {
-  height: 35px;
-  border-radius: 5px;
-  border-width: 1px;
-  border-color: lightgray;
-  width: 450px;
+.label {
+  padding-left: 15px;
+  font-size: 0.8em;
+  font-family: 'AtlasGrotesk', 'Times New Roman', Times, serif;
+  font-weight: bolder;
 }
 
 select {
-  border-radius: 2px;
-  height: 35px;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
   background-color: rgb(243, 243, 243);
-  padding-right: 250px;
-  width: 450px;
 }
 
-div.email {
-  padding-right: 220px;
-  padding-bottom: 2px;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-div.name {
-  padding-right: 290px;
-  padding-bottom: 2px;
-  font-weight: bold;
-  font-size: 1rem;
+input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
 }
 
 ::placeholder {
-  padding-left: 10px;
+  padding-left: 5px;
+  font-size: 1.2em;
+  color: rgb(180, 180, 180);
 }
 
-div.where {
-  padding-right: 175px;
-  padding-bottom: 2px;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-div.many {
-  padding-left: 50px;
-  padding-bottom: 2px;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-button.submit {
-  margin-right: auto;
-  padding-bottom: 2px;
-  font-weight: bold;
-  font-size: 1rem;
+.button-hold {
+  text-align: right;
+  background-color: rgb(238, 109, 103);
 }
