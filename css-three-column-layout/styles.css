@@ -1,0 +1,27 @@
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+h2 {
+  color: white;
+  margin: 15px;
+  font-family: 'Lato', sans-serif, serif;
+}
+
+body {
+  background-color: rgb(27, 150, 217);
+}
+
+.column-one-third {
+  width: 33%;
+}
+
+img {
+  width: 20%;
+}
