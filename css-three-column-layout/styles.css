@@ -27,6 +27,7 @@ body {
   height: 100px;
   width: 100px;
   padding: 20px;
+  margin-left: 20px;
 }
 
 img {
@@ -35,4 +36,19 @@ img {
 
 .circle-container {
   align-items: center;
+  padding-right: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: rgb(217, 220, 221);
+  padding-right: 20px;
+  font-size: smaller;
 }
