@@ -6,6 +6,7 @@
 
 .column-50 {
   width: 50%;
+  padding-left: 30px;
 }
 
 .row {
@@ -34,13 +35,14 @@ img {
 }
 
 .hero {
-  width: 100%;
+  width: 95%;
   position: relative;
+  margin-left: 20px;
 }
 
 .col-text {
   position: absolute;
-  left: 150px;
+  left: 250px;
   width: 40%;
   top: 150px;
   font-family: 'Tiempos Headline', sans-serif, serif;
@@ -50,17 +52,113 @@ img {
 .primary {
   position: absolute;
   top: 40px;
+  color: rgb(255, 255, 255);
 }
 
 .overlay {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
   position: absolute;
   height: 562px;
-  width: 1000px;
-  bottom: 160px;
+  width: 950px;
+  bottom: 188px;
+  margin-left: 21px;
 }
 
 .remember {
   position: absolute;
   top: 100px;
+  color: rgb(233, 232, 230);
+}
+
+.started {
+  position: absolute;
+  left: 250px;
+  bottom: 315px;
+  background-color: rgb(41, 68, 99);
+  padding: 12px 30px;
+  color: white;
+  border: 1px;
+}
+
+.column-full {
+  background-color: rgb(250, 250, 250);
+  height: 500px;
+  width: 1000px;
+  margin-top: 25px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(110, 110, 110);
+  font-family: 'Tiempos Headline', sans-serif, serif;
+  margin-top: 50px;
+}
+
+.mid-text {
+  text-align: center;
+  color: rgb(110, 110, 110);
+  font-family: 'Tiempos Headline', sans-serif, serif;
+}
+
+.mid-text-lower {
+  text-align: center;
+  color: rgb(110, 110, 110);
+  font-family: 'Tiempos Headline', sans-serif, serif;
+}
+
+.column-learn-more {
+  font-family: 'Tiempos Headline', sans-serif, serif;
+  color: rgb(110, 110, 110);
+  width: 50%;
+  margin-left: 60px;
+  font-size: smaller;
+}
+
+.start {
+  background-color: rgb(41, 68, 99);
+  color: white;
+  border: 1px;
+  padding: 12px 30px;
+  border-radius: 2px;
+  margin-left: 300px;
+  margin-top: 25px;
+}
+
+.column-60 {
+  background-color: rgb(82, 83, 81);
+  width: 60%;
+}
+
+.logo-white {
+  width: 20%;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+.address {
+  color: rgb(198, 198, 198);
+  padding-bottom: 1px;
+  margin-left: 60px;
+}
+
+.column-20 {
+  background-color: rgb(82, 83, 81);
+  width: 20%;
+  color: rgb(198, 198, 198);
+}
+
+h5 {
+  font-family: 'Avenir', sans-serif, serif;
+  font-size: 1rem;
+  margin-top: 100px;
+}
+
+h6 {
+  font-size: 0.9rem;
+  font-family: 'Avenir', sans-serif, serif;
+}
+
+.column-10 {
+  padding-right: 50px;
+  margin-left: 60px;
 }
