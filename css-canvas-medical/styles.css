@@ -5,7 +5,7 @@
 }
 
 .column-50 {
-  width: 50%;
+  width: 25%;
   padding-left: 30px;
 }
 
@@ -14,8 +14,8 @@
 }
 
 .nav {
-  width: 20%;
-  padding-right: 15px;
+  width: 15%;
+  margin-left: 50px;
 }
 
 .contact {
@@ -24,7 +24,7 @@
 }
 
 img {
-  width: 40%;
+  width: 70%;
   margin-top: 20px;
 }
 
@@ -56,9 +56,9 @@ img {
 }
 
 .overlay {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  background: rgba(131, 131, 131, 0.411);
   position: absolute;
-  height: 562px;
+  height: 535px;
   width: 950px;
   bottom: 188px;
   margin-left: 21px;
