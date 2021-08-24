@@ -5,7 +5,7 @@
 }
 
 .column-50 {
-  width: 25%;
+  width: 50%;
   padding-left: 30px;
 }
 
@@ -13,9 +13,27 @@
   display: flex;
 }
 
+.row-nav {
+  display: flex;
+  background-color: rgb(254, 254, 254);
+  justify-content: space-evenly;
+}
+
+a {
+  color: rgb(195, 195, 195);
+  text-decoration: none;
+  font-family: 'Avenir', sans-serif, serif;
+}
+
+.row-hero {
+  display: flex;
+  margin-top: 25px;
+}
+
 .nav {
-  width: 15%;
+  width: 10%;
   margin-left: 50px;
+  margin-top: 25px;
 }
 
 .contact {
@@ -24,14 +42,16 @@
 }
 
 img {
-  width: 70%;
+  width: 40%;
   margin-top: 20px;
 }
 
 .contact-us {
   background-color: rgb(41, 68, 100);
   color: white;
-  padding: 10px 5px;
+  padding: 10px 10px;
+  border-radius: 2px;
+  font-family: 'Avenir', sans-serif, serif;
 }
 
 .hero {
@@ -43,24 +63,29 @@ img {
 .col-text {
   position: absolute;
   left: 250px;
-  width: 40%;
+  width: 35%;
   top: 150px;
-  font-family: 'Tiempos Headline', sans-serif, serif;
+  font-family: 'Avenir', sans-serif, serif;
   color: white;
+}
+
+.emr-text {
+  font-family: 'Tiempos Headline', sans-serif, serif;
 }
 
 .primary {
   position: absolute;
   top: 40px;
   color: rgb(255, 255, 255);
+  font-family: 'Tiempos Headline', sans-serif, serif;
 }
 
 .overlay {
-  background: rgba(131, 131, 131, 0.411);
+  background: rgba(146, 124, 124, 0.411);
   position: absolute;
   height: 535px;
   width: 950px;
-  bottom: 188px;
+  bottom: 160px;
   margin-left: 21px;
 }
 
@@ -73,18 +98,17 @@ img {
 .started {
   position: absolute;
   left: 250px;
-  bottom: 315px;
+  bottom: 305px;
   background-color: rgb(41, 68, 99);
-  padding: 12px 30px;
+  padding: 15px 40px;
   color: white;
   border: 1px;
+  border-radius: 2px;
+  font-size: 1em;
 }
 
 .column-full {
   background-color: rgb(250, 250, 250);
-  height: 500px;
-  width: 1000px;
-  margin-top: 25px;
 }
 
 h2 {
@@ -161,4 +185,43 @@ h6 {
 .column-10 {
   padding-right: 50px;
   margin-left: 60px;
+}
+
+.col-top-half {
+  align-content: center;
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  margin-top: 20px;
+}
+
+.col-prefer-text {
+  text-align: center;
+  width: 45%;
+  margin-left: 275px;
+  font-family: 'Avenir', sans-serif, serif;
+  color: rgb(149, 149, 149);
+  font-size: 0.9em;
+}
+
+.col-location {
+  width: 50%;
+  height: 10%;
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  font-family: 'Avenir', sans-serif, serif;
+  font-size: 0.9em;
+  padding-top: 30px;
+  color: rgb(156, 156, 156);
+}
+
+.row-prefer {
+  width: 100%;
+  display: flex;
+  background-color: rgb(250, 250, 250);
+  height: 200px;
+}
+
+.row-privacy-terms {
+  display: flex;
+  background-color: rgb(250, 250, 250);
 }
