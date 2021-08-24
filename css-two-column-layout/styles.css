@@ -12,7 +12,7 @@ h1 {
   margin-left: 200px;
 }
 
-.column-full {
+.header {
   height: 80px;
 }
 
@@ -31,7 +31,7 @@ img {
   width: 80%;
 }
 
-.column-2 {
+.column-description {
   width: 30%;
   padding-right: 50px;
 }
@@ -42,8 +42,7 @@ p {
 }
 
 .button {
-  margin-left: 320px;
-  margin-top: 50px;
+  text-align: center;
 }
 
 .learn-more {
