@@ -8,13 +8,12 @@ body {
   margin-right: auto;
 }
 
-.column-full {
+.text-center {
   text-align: center;
 }
 
 .column-third {
   width: 33%;
-  flex-wrap: wrap;
 }
 
 .row {
