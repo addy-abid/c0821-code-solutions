@@ -17,10 +17,13 @@ h1 {
 }
 
 .column-80 {
-  text-align: center;
   width: 85%;
+}
+
+.margin {
   margin-left: 50px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .row {
