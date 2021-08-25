@@ -1,0 +1,33 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  font-family: 'DM Sans', sans-serif, serif;
+}
+
+.column-one-fifth {
+  width: 20%;
+}
+
+img {
+  width: 100%;
+}
+
+.text-content {
+  width: 20%;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif, serif;
+  font-size: 0.8em;
+  font-weight: 900;
+}
