@@ -41,8 +41,9 @@ p {
   color: rgb(129, 129, 129);
 }
 
-.button {
+.button-div {
   text-align: center;
+  padding-top: 10px;
 }
 
 .learn-more {
