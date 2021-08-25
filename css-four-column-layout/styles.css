@@ -2,8 +2,45 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(247, 248, 250);
 }
 
 .row {
   display: flex;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-family: 'Barlow', sans-serif, serif;
+  font-weight: 900;
+}
+
+.column-25 {
+  width: 25%;
+}
+
+img {
+  width: 100%;
+}
+
+.icons {
+  width: 25%;
+  text-align: center;
+}
+
+.icon {
+  width: 25%;
+}
+
+.text-content {
+  width: 25%;
+  text-align: center;
+  font-family: 'Barlow', sans-serif, serif;
+  font-size: 0.8em;
+  color: black;
+}
+
+h3 {
+  font-weight: 900;
 }
