@@ -33,6 +33,9 @@ img {
 
 .column-description {
   width: 30%;
+}
+
+.column-padding {
   padding-right: 50px;
 }
 
