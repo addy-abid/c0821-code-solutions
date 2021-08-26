@@ -31,20 +31,21 @@ h1 {
 }
 
 img {
-  width: 80%;
+  width: 90%;
 }
 
-.column-description {
-  width: 30%;
+.column-third {
+  width: 50%;
 }
 
-.column-padding {
+.padding-right-50 {
   padding-right: 50px;
 }
 
 p {
   font-family: 'Karla', sans-serif, serif;
   color: rgb(129, 129, 129);
+  line-height: 20px;
 }
 
 .button-div {
@@ -75,4 +76,9 @@ p {
 h4 {
   font-family: 'Karla', sans-serif, serif;
   font-size: 0.9em;
+}
+
+.column-picture {
+  padding-left: 20px;
+  text-align: end;
 }
