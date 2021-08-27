@@ -31,3 +31,9 @@ p {
   font-size: 0.8em;
   font-weight: 900;
 }
+
+.item-fit {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
