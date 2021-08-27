@@ -22,10 +22,6 @@ img {
   width: 100%;
 }
 
-.text-content {
-  width: 20%;
-}
-
 p {
   font-family: 'DM Sans', sans-serif, serif;
   font-size: 0.8em;
@@ -36,4 +32,12 @@ p {
   object-fit: contain;
   height: 100%;
   width: 100%;
+}
+
+.text {
+  display: flex;
+}
+
+.size {
+  margin-left: 15px;
 }
