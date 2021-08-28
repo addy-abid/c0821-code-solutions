@@ -1,23 +1,21 @@
 /* exported isUpperCased */
+
 /*
-goal - return a boolean indicating whether all characters in word are uppercase
-look at each character in word
-if all characters in word are upper
-  - return true
-otherwise
-  -return false
+goal - return true if all chars in string are uppercase, else return false
+check each char in string
+if word is Upper
+return true
+if word lower
+return false
 
 */
 
 function isUpperCased(word) {
-  var outPut = '';
-  for (var i = 0; i < word; i++) {
-    if (word === word.toUpperCase()) {
-      outPut = true;
-    } else {
-      outPut = false;
-    }
-    outPut = word;
+
+  if (word === word.toUpperCase()) {
+    return true;
+  } else {
+    return false;
   }
-  return outPut;
+
 }
