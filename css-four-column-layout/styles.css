@@ -2,6 +2,9 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+body {
   background-color: rgb(247, 248, 250);
 }
 
@@ -18,29 +21,25 @@
 
 .column-25 {
   width: 25%;
+  font-family: 'Barlow', sans-serif, serif;
 }
 
 img {
   width: 100%;
 }
 
-.icons {
-  width: 25%;
-  text-align: center;
-}
-
 .icon {
   width: 25%;
-}
-
-.text-content {
-  width: 25%;
-  text-align: center;
-  font-family: 'Barlow', sans-serif, serif;
-  font-size: 0.8em;
-  color: black;
+  margin-left: 75px;
 }
 
 h3 {
-  font-weight: 900;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+p {
+  text-align: center;
+  font-size: 0.7em;
 }
