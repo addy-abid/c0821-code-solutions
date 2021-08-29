@@ -13,20 +13,13 @@
   display: flex;
 }
 
-.row-nav {
-  display: flex;
-  background-color: rgb(254, 254, 254);
-  justify-content: space-evenly;
-}
-
 a {
   color: rgb(195, 195, 195);
   text-decoration: none;
   font-family: 'Avenir', sans-serif, serif;
 }
 
-.row-hero {
-  display: flex;
+.hero-picture {
   margin-top: 25px;
 }
 
@@ -36,12 +29,12 @@ a {
   margin-top: 25px;
 }
 
-.contact {
+.column-15 {
   width: 15%;
   margin-top: 15px;
 }
 
-img {
+.column-40 {
   width: 40%;
   margin-top: 20px;
 }
@@ -114,29 +107,18 @@ img {
 
 h2 {
   text-align: center;
-  color: rgb(110, 110, 110);
-  font-family: 'Tiempos Headline', sans-serif, serif;
   margin-top: 50px;
 }
 
-.mid-text {
-  text-align: center;
-  color: rgb(110, 110, 110);
-  font-family: 'Tiempos Headline', sans-serif, serif;
-}
-
-.mid-text-lower {
-  text-align: center;
-  color: rgb(110, 110, 110);
-  font-family: 'Tiempos Headline', sans-serif, serif;
-}
-
 .column-learn-more {
-  font-family: 'Tiempos Headline', sans-serif, serif;
-  color: rgb(110, 110, 110);
   width: 50%;
   margin-left: 60px;
   font-size: smaller;
+}
+
+.text-style {
+  font-family: 'Tiempos Headline', sans-serif, serif;
+  color: rgb(110, 110, 110);
 }
 
 .start {
@@ -219,15 +201,20 @@ h6 {
   line-height: 25px;
 }
 
-.row-prefer {
+.prefer {
   width: 100%;
-  display: flex;
   background-color: rgb(250, 250, 250);
   height: 200px;
 }
 
-.row-privacy-terms {
-  display: flex;
+.prefer-top {
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  height: 200px;
+  margin-top: 50px;
+}
+
+.privacy-terms {
   background-color: rgb(250, 250, 250);
 }
 
