@@ -1,0 +1,44 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 100%;
+}
+
+.body-light {
+  background-color: rgb(254, 249, 241);
+}
+
+.body-light.on {
+  background-color: rgb(250, 234, 132);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 3px 14px 3px rgba(250, 234, 132, 0.73);
+  border-color: rgb(250, 234, 132);
+  border: 1px;
+}
+
+.button {
+  margin-top: 25%;
+  text-align: center;
+}
+
+.body-dark {
+  background-color: black;
+}
+
+.off {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 50%;
+  border: 1px;
+}
