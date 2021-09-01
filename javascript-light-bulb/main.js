@@ -3,6 +3,7 @@ var isOn = false;
 function circle(event) {
 
   if (isOn) {
+    isOn = false;
     $button.className = 'off';
     $body.className = 'body-dark';
 
