@@ -12,13 +12,21 @@ return list of words
 function getWords(string) {
   var outPut = [];
   var word = '';
+  var lastSpace = 0;
+
   for (var i = 0; i < string.length; i++) {
-    if (string[i] === ' ') {
+    if (string[i] === ' ' || i === string.length - 1) {
+      for (var j = lastSpace; j <= i; j++) {
+        if (string[j] !== ' ') {
+          word += string[j];
+        }
+      }
       outPut.push(word);
-    } else {
-      word += string[i];
+      word = '';
+      lastSpace = i;
     }
 
   }
+
   return outPut;
 }
