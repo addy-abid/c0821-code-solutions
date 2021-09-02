@@ -1,0 +1,9 @@
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.column {
+  width: 100%;
+  flex-wrap: nowrap;
+}
