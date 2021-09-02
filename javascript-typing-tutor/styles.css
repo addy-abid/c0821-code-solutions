@@ -1,9 +1,15 @@
-.row {
-  display: flex;
-  flex-wrap: nowrap;
+.container {
+  min-width: 800px;
+  min-height: 800px;
 }
 
 .column {
-  width: 100%;
-  flex-wrap: nowrap;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 25%;
 }
