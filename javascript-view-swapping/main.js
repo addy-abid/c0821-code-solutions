@@ -14,7 +14,7 @@ $tabContainer.addEventListener('click', function (event) {
       }
     }
   }
-  if (event) {
+  if (event.target.matches('.tab')) {
     var data = event.target.getAttribute('data-view');
     for (var j = 0; j < $view.length; j++) {
       if ($view[j].getAttribute('data-view') === data) {
