@@ -20,12 +20,10 @@ console.log('value of array:', arr, 'type of:', typeof arr);
 
 var jsonString = JSON.stringify(arr);
 console.log('JSON String: ', jsonString, 'type of: ', typeof jsonString);
-var book = JSON.stringify(arr[0]);
-console.log(book);
 
-var student = '{"Student ID": "1", "Student Name": "Bob", "Student ID": "2", "Student Name": "Wallace", "Student ID": "3", "Student Name": "Lindsay"}';
+var student = '{"id": "1", "name": "Bob"}';
 
 console.log('String student: ', student, 'type of: ', typeof student);
 var parsed = JSON.parse(student);
 
-console.log('var: ', parsed, 'type of: ', typeof parsed);
+console.log('parsed: ', parsed, 'type of: ', typeof parsed);
