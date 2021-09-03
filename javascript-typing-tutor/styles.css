@@ -10,6 +10,9 @@
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
   margin-top: 25%;
+}
+
+span {
+  font-family: 'Courier New', Courier, monospace;
 }
