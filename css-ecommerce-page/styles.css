@@ -1,0 +1,56 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  font-family: 'DM Sans', sans-serif, serif;
+}
+
+.column-one-fifth {
+  width: 20%;
+  padding: 0 10px 0 10px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif, serif;
+  font-size: 0.7em;
+  font-weight: 900;
+  margin-top: 1px;
+}
+
+.item-fit {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.text {
+  display: flex;
+}
+
+.size {
+  margin-right: 25px;
+  font-weight: 100;
+  color: rgb(226, 223, 223);
+}
+
+mark {
+  background-color: rgb(255, 241, 230);
+}
+
+.line-through {
+  text-decoration: line-through;
+}
