@@ -7,11 +7,10 @@ reutn output
 */
 
 function toObject(keyValuePair) {
-  var outPut = {};
+  var obj = {};
+  var key = keyValuePair[0];
+  var value = keyValuePair[1];
 
-  for (var i = 0; i < keyValuePair.length; i++) {
-    outPut[keyValuePair[i].keyValuePair] = keyValuePair[i];
-
-  }
-  return outPut;
+  obj[key] = value;
+  return obj;
 }
