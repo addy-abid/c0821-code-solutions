@@ -11,5 +11,6 @@ function getKeys(object) {
   var output = [];
   for (var keys in object) {
     output.push(keys);
-  } return output;
+  }
+  return output;
 }
